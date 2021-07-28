@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Email List</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <form class="form" id="email-form">
-            <h5 class="form-title">Join the mailing list</h5>
-            <div class="form-wrapper" id="wrapper">
-                <input name="email" id="email" type="email" placeholder="Your email" class="form-input">
-                <input class="form-submit" id="submit-btn" type="submit" value="Sign Up">
-            </div>
-            <span class="form-error" id="error-msg">Please enter a valid email.</span>
-        </form>
+      <form class="form" id="email-form">
+        <h5 class="form__title">Join the mailing list</h5>
+        <div class="form__wrapper" id="wrapper">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Your email"
+            class="form__input"
+          />
+          <input
+            class="form__submit"
+            id="submit-btn"
+            type="submit"
+            value="Sign Up"
+          />
+        </div>
+        <span class="form__error" id="error-msg"
+          >Please enter a valid email.</span
+        >
+      </form>
     </div>
     <script src="js/index.js"></script>
-</body>
-
+  </body>
 </html>
