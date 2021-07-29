@@ -1,12 +1,16 @@
 {
   "name": "email-list-test",
   "version": "1.0.0",
-  "description": "Technical test for Fourthwall openning",
+  "description": "Technical test for Fourthwall opening",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node-sass scss/main.scss css/main.css",
+    "dev": "node-sass --watch --source-map=true scss/main.scss css/main.css"
   },
   "author": "grlopez",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
