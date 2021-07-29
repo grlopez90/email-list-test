@@ -2,8 +2,11 @@ Mail list join technical test project.
 
 This project was created using HTML5, vanilla Js for the form submission and validation.
 
-In order to compile the SCSS files, I chose to use Prepros, which is a free, lightweight and easy to use tool.
-https://prepros.io/
+To install the dependencies, please run "npm install". 
+
+To compile the SCSS while watching for changes and generate the source map, please run "npm run dev".
+
+To just compile the SCSS without a source map, please run "npm run prod".
 
 To run and test this project, just open the index.html in any browser.
 
